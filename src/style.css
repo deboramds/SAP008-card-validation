@@ -1,0 +1,52 @@
+
+   body{
+background-image: url();
+background-repeat: no-repeat;
+background-size: ;
+background-position:left;
+background-color: rgb(238, 241, 241);
+   }
+
+   h1 {
+    text-align: center;
+     color: white;
+     font-family: "Open Sans Condesesed", sans-serif;
+     font-size: 32px;
+color: rgb(214, 58, 58);
+   }
+   form{
+    width: 400px;
+    background: rgb(95, 197, 158);
+padding: 1em;
+border: radius 0.5em; ;
+margin: 0 auto;
+box-shadow: 0 4px 8px #999;
+
+}
+form div + div{
+margin-top: 1em;
+}
+
+label {
+display: inline-block;
+width: 90px;
+text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
