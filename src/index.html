@@ -3,52 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
 
-  <body >
-    <main>
-      <div class="">
-        <h1> Você está a poucos passos da sua viagem...<br>
-          Insira os dados do seu cartão <br> </h1>
-
-          
-           <header>
-      
-<form action="/pagina-processa-dados-do-form" method="post">
-     
-      
-  <div>
-<label 
-for="nome">Titular do cartão</label>
-<input type="text"  id="nome" />
-</div>
-
-<div>
-  <label
-  for="nome">Número do cartão</label>
-  <input type="number"  id="creditCardNumber" placeholder= "**** **** **** **** "/>
-  </div>
-
-<input type="button" id= "Confirm" value="Confirmar compra">     
-  </div>
-    
+  <body>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <div> 
+      <section class="cabeçalho">
+     <h1>Seja Bem-vindo !!! </h1>
+     <p>Insira os dados do seu <br> cartão para validação !</p>
+     <img src="imagem/cartão-martins-turismo.png" alt="cartãopng">
+     <br><br> 
+      </section>
     </div>
+    <div>
+      <form>
+      Nome Completo : <input type="text" id="nome"><br>
+      Data de Validade: <input type="month" id="mes"><br>
+      CVV: <input type="number" id="CVV"><br>
+      Número do Cartão : <input type="number"  id="numDigitado" placeholder= "**** **** **** **** "/><br>
+      <input type="button" id="btn" value="Confirmar Compra"></button> 
+      <p id="outcard"></p>
+      </form>
     </div>
-   
-    </div>
-  </main>
-  </form>
-        
-        
-        
-  </body>
-        
-    
-
-</header>
-    <main></main>
-    <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
+</html>
 </html>

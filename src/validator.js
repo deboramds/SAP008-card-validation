@@ -1,46 +1,51 @@
+const validator = {
+  
 
-const validator = { isValid, maskify } // funções
 
-function isValid(creditCardNumber) {
-  const transfCard = creditCardNumber.split("").reverse();
-  //let transfCard = Array.from(revCard);
+isValid: (creditCardNumber) => {
+  const numCard = creditCardNumber.split("").reverse()
   let retCard = 0;
+   
+  for (let i=0;i<numCard.length; i++){ 
+  let transfCard = parseInt(numCard[i])
 
-  for (let i = 0; i < transfCard.length; i++) {
-    let numCard = parseInt(transfCard[i])
+  if (i % 2 !==0 && transfCard >= 5){
+    retCard = retCard + ((transfCard*2)-9)
+    
+  } 
+  else if (i%2 !==0 && transfCard <5 ){
+    retCard = retCard + (transfCard*2)
 
-    if (i % 2 !== 0 && numCard >= 5) {
-      retCard = retCard + (numCard * 2) - 9;
-      console.log("1")
-    }
-    else if (i % 2 == 0 && numCard <= 5) {
-      retCard = retCard + (numCard * 2);
-      console.log("2")
-    }
-    else {
-      retCard = retCard + numCard;
-      console.log("3")
-    }
-  }
-
-  if (retCard % 10 === 0) {
-    return true
   }
   else {
-    return false
+  retCard =  retCard + transfCard 
+  
   }
+  }
+
+  if (retCard %10===0) {
+    return true
+    
+
+  }
+   else {
+    return false
+   }
+}
 }
 
+/*maskify: function (mascararNum) {
+  const ultimosQuatroNum = 4
+  let mascarar = ""
+  for (let i = 0; i < mascararNum.length; i++) {
+    if (i >= ((mascararNum.length) - ultimosQuatroNum)) {
+      mascarar = mascarar + mascararNum.charAt(i)
+    }
+    else {
+      mascarar = mascarar + "#"
+    }
+  }
+  return mascarar
+} */
 
-maskfy (creditCardNumber)
- {
-let maskCreditCardNumber = Array.from (creditCardNumber);
-const lastFourNumbers = 4
-
-for (let i = 0; 1 < maskCreditCardNumber.length - lastFourNumbers; i++) {
-maskCreditCardNumber [i] ="#"
-}
-
-const joiningArrayCreditCardNumber = maskCreditCardNumber.join ('');
-return joiningArrayCreditCardNumber
-}
+export default validator; 
