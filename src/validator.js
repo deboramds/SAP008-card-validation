@@ -33,7 +33,6 @@ isValid: (creditCardNumber) => {
    }
 }
 }
-
 /*maskify: function (mascararNum) {
   const ultimosQuatroNum = 4
   let mascarar = ""
