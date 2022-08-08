@@ -31,20 +31,17 @@ isValid: (creditCardNumber) => {
    else {
     return false
    }
+
+},
+
+
+maskify: (creditCardNumber) => {
+  return creditCardNumber.replace(/.(?=.{4})/g, "#");
+  
 }
+
 }
-/*maskify: function (mascararNum) {
-  const ultimosQuatroNum = 4
-  let mascarar = ""
-  for (let i = 0; i < mascararNum.length; i++) {
-    if (i >= ((mascararNum.length) - ultimosQuatroNum)) {
-      mascarar = mascarar + mascararNum.charAt(i)
-    }
-    else {
-      mascarar = mascarar + "#"
-    }
-  }
-  return mascarar
-} */
+
+
 
 export default validator; 

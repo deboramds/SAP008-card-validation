@@ -9,22 +9,22 @@ runbtn.addEventListener("click", validatorCard);
     function validatorCard(){
      let numDigitado = document.getElementById("numDigitado").value;
      let result = validator.isValid(numDigitado);
-    // let mask = validator.maskify(numDigitado);
+     let cardMaskify = validator.maskify(numDigitado);
      console.log (result)
      
     
 
-     if(numDigitado === "") {
+     if(result === "") {
         return alert ("Digite um número");
      }
      else if(result == true) {
-         alert ( numDigitado + "CARTÃO VÁLIDO");
+         alert ( cardMaskify + " CARTÃO VÁLIDO");
      }
      else{
-         alert ( numDigitado + "CARTÃO INVÁLIDO");
+         alert ( cardMaskify + " CARTÃO INVÁLIDO");
      }
     
     }
-
+    
 
 

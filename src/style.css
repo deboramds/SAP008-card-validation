@@ -8,6 +8,7 @@ height: 628px;
 left: 2px;
 top: -1tx;
 text-align: center;
+
 }
 
    h1 {
@@ -28,20 +29,12 @@ text-align: center;
     width: 400px;
     background: rgb(52, 121, 224);
     padding: 1em;
-    border: radius 0.5em; ;
+    border: radius 0.5em; 
     margin: 0 auto;
-    box-shadow: 0 4px 8px #999;
+    box-shadow: 0 4px 8px rgb(17, 16, 16);
     color: white;
     }
-    form div + div{
-    margin-top: 1em;
-    }
-
-    label {
-    display: inline-block;
-    width: 90px;
-    text-align: right;
-    }
+   
 
 
 
