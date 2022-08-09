@@ -3,7 +3,6 @@ import validator from "./validator.js";
 
    
 let runbtn = document.getElementById("btn");
-let finalResult = document.getElementById("outCard");
 runbtn.addEventListener("click", validatorCard);
 
     function validatorCard(){
