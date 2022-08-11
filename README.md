@@ -2,14 +2,12 @@
 
 ## Índice
 
-* [1. Introdução](#1-Introdução)
-* [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
-* [4. Considerações gerais](#4-consideracoes-gerais)
-* [5. Critérios mínimos de aceitação do
-  projeto](#5-criterios-de-aceptacao-mínimos-do-projeto)
-* [6. Guias, dicas e leituras
-  complementares](#6-guias-dicas-e-leituras-complementares)
+* [1. Sobre ](#1-Sobre)
+* [2. Objetivo do projeto](#2-Plano-do-projeto)
+* [3. Contexto criado pela desenvolvedora](#3-Contexto-criado-pela-desenvolvedora)
+* [4. Funcionalidade](#4-Funcionalidade)
+* [5. Projeto Final](#5-Projeto-final)
+* [6.Ferramentos Utilizadas](#6-Ferramentos-utilizadas)
 
 ***
 
