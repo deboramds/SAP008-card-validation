@@ -26,8 +26,8 @@ Esse algoritmo é simples. Obtemos o inverso do número a ser verificado (que co
 
 ## 2. Objetivo do Projeto
 
-O objetivo desse projeto é desenvolver um aplicativo da web que permita o usuário validar o numero de um cartão de crédito . O projeto deve star dentro de um contexto real criado pela desenvolvedora . Deverá também contem uma funcionalidade para ocuultar os primeiros digitos e deixar visivel os quatro ultimos .
-O mesmo deve ser deselvolvido em  Vanilla Javascript,e Css. 
+O objetivo desse projeto é desenvolver um aplicativo da web que permita o usuário validar o número de um cartão de crédito . O projeto deve star dentro de um contexto real criado pela desenvolvedora . Deverá também conter uma funcionalidade para ocultar os primeiros dígitos e deixar visivel os quatro últimos .
+O mesmo deve ser deselvolvido em Vanilla Javascript, html e Css. 
 
 ## 3. Contexto criado pela desenvolvedora 
 
@@ -53,7 +53,7 @@ Início
 ![Início](https://github.com/deboramds/SAP008-card-validation/blob/main/src/imagem/imagem-final.jpg)
 
 
-Cartão Válido
+Cartão Inválido
 
 ![Cartão Inválido](https://github.com/deboramds/SAP008-card-validation/blob/main/src/imagem/imagem-cartao-invalido.jpg)
 
