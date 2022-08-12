@@ -50,7 +50,28 @@ No aplicativo o cliente tera dois caminhos conforme fluxograma abaixo :
 
 Início
 
-![Início]()
+![Início](https://github.com/deboramds/SAP008-card-validation/blob/main/src/imagem/imagem-final.jpg)
+
+
+Cartão Válido
+
+![Cartão Inválido](https://github.com/deboramds/SAP008-card-validation/blob/main/src/imagem/imagem-cartao-invalido.jpg)
+
+Cartão Válido
+
+![Cartão Válido](https://github.com/deboramds/SAP008-card-validation/blob/main/src/imagem/imagem-cartao-valido.jpg)
+
+## Ferramentas utilizadas
+
+- Html
+- Css
+- JavaScript
+- Canva
+- Git
+- GitHub
+
+
+
 
 
 
