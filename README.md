@@ -29,6 +29,10 @@ Esse algoritmo é simples. Obtemos o inverso do número a ser verificado (que co
 O objetivo desse projeto é desenvolver um aplicativo da web que permita o usuário validar o número de um cartão de crédito . O projeto deve star dentro de um contexto real criado pela desenvolvedora . Deverá também conter uma funcionalidade para ocultar os primeiros dígitos e deixar visivel os quatro últimos .
 O mesmo deve ser deselvolvido em Vanilla Javascript, html e Css. 
 
+Prototipo de baixa fidelidade :
+
+![Esboço](https://github.com/deboramds/SAP008-card-validation/blob/main/src/imagem/Esbo%C3%A7o-card-validation.jpeg)
+
 ## 3. Contexto criado pela desenvolvedora 
 
 Em tempos de grandes demandas de compras online, clientes procuram cada vez mais sites de agências de turismo para fazer comparativos de preços e pacotes . Pensando na segurança, conforto e facilidade no acesso, o Martins Turismo oferece a seus clientes um processo de pagamento ágil, baseado no algoritimo de Luhn, que foi desenvolvido por Hans Peter Luhn, da IBM, em 1954. Ele é capaz de detectar um erro simples em um dígito, assim como a maioria das transposições de um dígito com os dígitos adjacentes.
