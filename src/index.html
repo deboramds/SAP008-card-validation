@@ -1,37 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
 
-  <body>
-    <br><br>
-    <br><br>
-    <br><br>
-    <br><br>
-    <div> 
-      <section class="cabeçalho">
-     <h1>Seja Bem-vindo !!! </h1>
-     <p>Insira os dados do seu <br> cartão para validação !</p>
-     <img src="imagem/cartão-martins-turismo.png" alt="cartãopng">
-     <br><br> 
-      </section>
-    </div>
-    <div>
-      <form>
-      Nome Completo : <input type="text" id="nome"><br>
-      Data de Validade: <input type="month" id="mes"><br>
-      CVV: <input type="numValidar" id="CVV"><br>
-      Número do Cartão : <input type="number"  id="numDigitado" placeholder= "**** **** **** **** "/><br>
-      <input type="button" id="btn" value= "Confirmar Compra">
-      
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  
+ 
+
+  <main class="container">
     
-       </form>
-    
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+    <section class="ui">
+      <div class="container-form">
+        <form id="credit-card">
+        
+          <div class="number-container">
+            <label for="">Número do cartão</label>
+            <input type="text" name="card-number" id="numDigitado" maxlength="19" placeholder="1234 5678 9101 1121"
+              requirid>
+          </div>
+          <div class="name-container">
+            <label>Nome Impresso no cartão</label>
+            <input type="text" name="name-text" id="name-text" maxlength="30" placeholder="NOAH JACOB" required>
+          </div>
+          <div class="infos-container">
+            <div class="expiration-container">
+              <label>Validade</label>
+              <input type="text" name="name-text" id="validad-thru-text" maxlength="5" placeholder="02/10" required>
+            </div>
+            <div class="cvv-container">
+              <label>CVV</label>
+              <input type="text" name="cvv-text" id="cvv-textext" maxlength="3" placeholder="123" required>
+
+
+
+            </div>
+          </div>
+          <input type="submit" value="Confirmar" id="btn">
+        </form>
+      </div>
+
+      </div>
+
+
+    </section>
+
+  </main>
+  </div>
+
+
+  </div>
+  <script src="index.js" type="module"></script>
+
+  <footer>copyright © Débora Martins </footer>
+</body>
 
 </html>
